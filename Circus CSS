@@ -1,0 +1,159 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Ecris ici ton code CSS */
+
+body{
+  color: white;
+  background-color: #333641;
+  background-size:100% 100%;
+  }
+@font-face {
+font-family: Amatic SC;
+font-style: normal;
+font-weight: normal;
+src: local('Amatic SC Regular'), url('AmaticSC-Regular.woff') format('woff');
+}
+@font-face {
+font-family: Amatic SC Bold;
+font-style: normal;
+font-weight: normal;
+src: local('Amatic SC Bold'), url('AmaticSC-Bold.woff') format('woff');
+}
+
+p{
+  background-color:#1D1E22;
+  padding: 15px;
+  margin-top:0px;
+  }
+h1{
+  text-align:center;
+  font-family:Amatic SC ,cursive;
+  font-weight:900;
+  color: #b8a96c;
+  background-color:#1a1b1f;
+  border: 1px dashed;
+  max-width:500px;
+  position:relative;
+  margin:auto auto;
+    }
+h2{
+  text-align: center;
+  font-family:Amatic SC,cursive;
+  background-color: #1a1b1f;
+  border:1px solid #1D1E22;
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-left:0px;
+  padding-right:0px;
+  margin-bottom:0px;
+  margin-top:0px;
+}
+h3{
+  padding:5px;
+  margin-bottom:5px;
+  margin-top:5px;
+  text-align:center;
+  font-family:Amatic SC,cursive;
+  background-color: #1a1b1f;
+  border:1px solid #1D1E22;
+}
+th{
+  background-color:#1a1b1f;
+  padding-top:12px;
+  padding-bottom:12px;
+}
+tr{
+  background-color:#1a1b1f;
+}
+td{
+  padding-top:12px;
+  padding-bottom:12px;
+}
+ul.menu{
+  font-family:Amatic SC, cursive;
+  font-weight:600;
+  font-size:1.4em;
+  color: #292B31 ;
+  margin-top:5px;
+  margin-bottom:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:0px;
+  padding-right:0px; 
+}
+ul.menu li{
+  display:table-cell;
+  background-color:#1D1E22;
+  border:1px solid #333641;
+  text-align:center;
+  height:20px;
+  width: 350px;
+    }
+a:link{
+  cursor:pointer;
+  text-decoration:none;
+  color: #b8a96c;
+}
+a:visited{
+  text-decoration:none;
+  color:blue;
+}
+a:hover{
+  text-decoration:none; 
+  color:grey;
+  cursor: pointer;
+}
+ul.competences{
+  list-style-type:none; 
+  margin:0px;
+  padding:0px;
+  }
+ul.competences li {
+  display: table-cell;
+  padding:2px;
+  background-color:inherit;
+}
+table.equipe{
+  text-align:center;
+  table-layout:auto;
+  border-spacing:5px 5px;
+  margin:0 auto;
+     }
+img {
+	max-width: 100%;
+	height: 200px;
+}
+img.IOI{
+  height: 20px;
+  width:auto;
+}
+img.sololearn{
+  height:20px;
+  width:auto;
+}
+img.wild{
+  height:20px;
+  width:auto;
+}
+table.prices{
+  border:1px;
+  table-layout:fixed;
+  width:750px;
+  height:150px;
+  text-align: center;
+  padding:5px;
+  margin:10px auto;
+  position : relative;
+  }
+
+.contactform{
+  display: block;
+  width:150px;
+  margin:25px auto;
+  text-align:center;
+  }
+
+.clear{
+  text-align:center;
+  clear: both;
+}
